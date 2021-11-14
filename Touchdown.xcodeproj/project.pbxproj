@@ -15,6 +15,8 @@
 		FC630239274162D2003ADA6F /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = FC630235274162D1003ADA6F /* player.json */; };
 		FC63023A274162D2003ADA6F /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = FC630236274162D2003ADA6F /* product.json */; };
 		FC63023B274162D2003ADA6F /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = FC630237274162D2003ADA6F /* category.json */; };
+		FC63024927416568003ADA6F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC63024827416568003ADA6F /* Constant.swift */; };
+		FC63024E27416618003ADA6F /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC63024D27416618003ADA6F /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FC630235274162D1003ADA6F /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		FC630236274162D2003ADA6F /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		FC630237274162D2003ADA6F /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		FC63024827416568003ADA6F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FC63024D27416618003ADA6F /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,12 @@
 		FC630223274161CE003ADA6F /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				FC630247274164D9003ADA6F /* Utility */,
+				FC630246274164D2003ADA6F /* Extension */,
+				FC630245274164CD003ADA6F /* Model */,
+				FC630242274164B9003ADA6F /* View */,
 				FC63023D274162E4003ADA6F /* Data */,
-				FC630224274161CE003ADA6F /* TouchdownApp.swift */,
-				FC630226274161CE003ADA6F /* ContentView.swift */,
+				FC630240274164B4003ADA6F /* App */,
 				FC630228274161D0003ADA6F /* Assets.xcassets */,
 				FC63022D274161D0003ADA6F /* Info.plist */,
 				FC63022A274161D0003ADA6F /* Preview Content */,
@@ -87,6 +94,61 @@
 				FC630236274162D2003ADA6F /* product.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		FC630240274164B4003ADA6F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC630224274161CE003ADA6F /* TouchdownApp.swift */,
+				FC630226274161CE003ADA6F /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC630242274164B9003ADA6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC630244274164C5003ADA6F /* Detail */,
+				FC630243274164BE003ADA6F /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC630243274164BE003ADA6F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC63024D27416618003ADA6F /* FooterView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC630244274164C5003ADA6F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FC630245274164CD003ADA6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC630246274164D2003ADA6F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FC630247274164D9003ADA6F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FC63024827416568003ADA6F /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC630227274161CE003ADA6F /* ContentView.swift in Sources */,
+				FC63024E27416618003ADA6F /* FooterView.swift in Sources */,
 				FC630225274161CE003ADA6F /* TouchdownApp.swift in Sources */,
+				FC63024927416568003ADA6F /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
