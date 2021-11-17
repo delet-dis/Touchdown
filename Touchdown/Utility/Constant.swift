@@ -7,7 +7,14 @@
 
 import SwiftUI
 
-let players: [Player] = Bundle.main.decode("player.json")
+var players: [Player] = Bundle.main.decode("player.json")
+var categories: [Category] = Bundle.main.decode("category.json")
 
-let colorBackground = Color("ColorBackground")
-let colorGray = Color(UIColor.systemGray4)
+var colorBackground = Color("ColorBackground")
+var colorGray = Color(UIColor.systemGray4)
+
+var columnSpacing: CGFloat = 10
+var rowSpacing: CGFloat = 10
+var gridLayout: [GridItem] {
+    return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
+}
