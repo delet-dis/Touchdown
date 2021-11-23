@@ -11,12 +11,12 @@ struct BrandGridView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: gridLayout) {
-                ForEach(brands){brand in
+                ForEach(brands) { brand in
                     BrandItemView(brand: brand)
                 }
             }
         }
-        .frame(height:200)
+        .frame(height: 200)
         .padding(15)
     }
 }

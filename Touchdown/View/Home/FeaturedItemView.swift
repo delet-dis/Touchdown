@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct FeaturedItemView: View {
-    let player:Player
-    
+    let player: Player
+
     var body: some View {
         Image(player.image)
             .resizable()

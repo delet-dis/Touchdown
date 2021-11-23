@@ -9,9 +9,9 @@ import SwiftUI
 
 struct HeaderDetailView: View {
     var body: some View {
-        VStack(alignment:.leading, spacing:6){
+        VStack(alignment: .leading, spacing: 6) {
             Text("Protective gear")
-            
+
             Text(sampleProduct.name)
                 .font(.largeTitle)
                 .fontWeight(.black)

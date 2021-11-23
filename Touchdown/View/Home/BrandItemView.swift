@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct BrandItemView: View {
-    let brand:Brand
-    
+    let brand: Brand
+
     var body: some View {
         Image(brand.image)
             .resizable()
