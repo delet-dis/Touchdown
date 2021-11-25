@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC36C00F274FAA9B00838F72 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC36C00E274FAA9B00838F72 /* Shop.swift */; };
 		FC630225274161CE003ADA6F /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC630224274161CE003ADA6F /* TouchdownApp.swift */; };
 		FC630227274161CE003ADA6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC630226274161CE003ADA6F /* ContentView.swift */; };
 		FC630229274161D0003ADA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC630228274161D0003ADA6F /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC36C00E274FAA9B00838F72 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		FC630221274161CE003ADA6F /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC630224274161CE003ADA6F /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		FC630226274161CE003ADA6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			children = (
 				FC63024827416568003ADA6F /* Constant.swift */,
 				FC765045274CBBBD00A5C7BE /* CustomShape.swift */,
+				FC36C00E274FAA9B00838F72 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				FC63026A27451445003ADA6F /* CategoryItemView.swift in Sources */,
 				FC6302632744C1BD003ADA6F /* FeaturedTabView.swift in Sources */,
 				FC765046274CBBBD00A5C7BE /* CustomShape.swift in Sources */,
+				FC36C00F274FAA9B00838F72 /* Shop.swift in Sources */,
 				FC63025A2744BEEC003ADA6F /* PlayerModel.swift in Sources */,
 				FC76502F27491EC900A5C7BE /* BrandModel.swift in Sources */,
 				FC76502527481CFE00A5C7BE /* TitleView.swift in Sources */,
